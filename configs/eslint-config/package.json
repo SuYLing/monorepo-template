@@ -1,0 +1,36 @@
+{
+  "name": "@yu/eslint-config",
+  "version": "1.0.0",
+  "description": "the eslint config for yu",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsup"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@eslint/js": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "globals": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
+  }
+}
