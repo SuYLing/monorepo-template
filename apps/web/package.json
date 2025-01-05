@@ -10,15 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18"
   },
   "devDependencies": {
-  
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
+    "@yu/tailwind-config": "workspace:*",
+    "@types/react": "catalog:react18",
+    "@types/react-dom": "catalog:react18",
     "@vitejs/plugin-react": "^4.3.4",
     "typescript": "catalog:",
-    "vite": "^6.0.5"
+    "vite": "catalog:"
+  },
+  "peerDependencies": {
+    "tailwindcss": "*"
   }
 }
